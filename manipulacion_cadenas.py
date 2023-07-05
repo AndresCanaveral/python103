@@ -36,8 +36,21 @@ print(buscar_subcadena)
 print("*" * 40)
 print("Busqueda")
 mensaje = "Hola Andres"
-extraer_subcadena = mensaje[1:9] # Se está indicando mostrar lo que hay a partir de la poscion 1 y lo que hay antes de las posicion 9 (1 > x < 9)
+extraer_subcadena = mensaje[1:9] 
+'''
+Se está indicando mostrar lo que hay a partir de la poscion 1 y lo que hay antes de las posicion 9 (1 > x < 9)
+'''
 print(extraer_subcadena)
+
+# La comparacion
+print("*" * 40)
+print("Comparacion")
+mensaje_uno = "Hola"
+mensaje_dos = "Hol"
+
+print(mensaje_uno == mensaje_dos)
+
+
 
 
 
