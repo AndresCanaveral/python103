@@ -1,22 +1,28 @@
 # Condicionales 
 
-print("Promedio de 3 materias.")
+print("Promedio Materias.")
 
 nombre = input("Indica tu nombre: ")
 
-mate = float(input("Nota de Matematicas: "))
-quim = float(input("Nota de Quimica: "))
-biol = float(input("Nota de Biologia: "))
+nMaterias = int(input("Escriba el numero de materias: "))
 
-prom = (mate + quim + biol) / 3
-prom = int(prom)
+suma = 0
+
+for i in range(nMaterias):
+  nombreMateria = input("Nombre de la materia: ")
+  notaMateria = float(input("Escriba nota: ") )
+  suma += notaMateria
+  
+prom = suma / nMaterias
+
+'''
+for i in range(nMaterias):
+  print("Materia: ", nombreMateria)
+  print("Nota: ", notaMateria)
+'''
 
 if prom >= 3:
   print(nombre + " 'Aprobaste' el promedio! siendo: ", prom)
-
+  
 elif prom < 3:
   print(nombre + " 'Reprobaste' el promedio, siendo: ", prom)
-
-
-
-
