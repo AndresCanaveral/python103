@@ -23,6 +23,7 @@ for i in range(nMaterias):
 
 if prom >= 3:
   print(nombre + " 'Aprobaste' el promedio! siendo: ", prom)
-  
+  print(nombre + " 'Aprobaste' el promedio! siendo: ", round(prom,1))
 elif prom < 3:
   print(nombre + " 'Reprobaste' el promedio, siendo: ", prom)
+  print(nombre + " 'Aprobaste' el promedio! siendo: ", round(prom,1))
