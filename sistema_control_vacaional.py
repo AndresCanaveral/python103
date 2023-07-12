@@ -5,8 +5,8 @@ print("Sistema de Control Vacacional.")
 print("*" * 40)
 
 name = input("Escriba nombre: ")
-clave = input("Escriba clave: ")
-anio = input("Escriba años: ")
+clave = int(input("Escriba clave: "))
+anio = int(input("Escriba años: "))
 
 if clave == 1:
   if anio == 1:
