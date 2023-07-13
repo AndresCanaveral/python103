@@ -1,3 +1,4 @@
+# par o impar
 print("Numero par o impar")
 
 number = int(input("Coloque el numero: \n"))
