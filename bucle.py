@@ -24,3 +24,16 @@ while contador < 10:
     break
   print("valor actual de la variable ", contador)
 
+
+# Sentencia Continue
+
+print("\nWhile con la sentencia continue \n")
+
+contador = 0
+
+while contador < 10:
+  contador += 1
+
+  if contador == 5:
+    continue
+  print("valor actual de la variable ", contador)
