@@ -1,9 +1,9 @@
 # par o impar
 print("Numero par o impar")
 
-number = int(input("Coloque el numero: \n"))
+number = int(input("En que numero estas pensando?: \n"))
 
 if number % 2 == 0:
-  print("Numero ", number, "es par")
+  print(f'El numero {number} es par!')
 else:
-  print("Numero ",number, "no es par")
+  print(f'El numero {number} es impar!')

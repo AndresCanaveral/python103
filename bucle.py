@@ -37,3 +37,5 @@ while contador < 10:
   if contador == 5:
     continue
   print("valor actual de la variable ", contador)
+
+
